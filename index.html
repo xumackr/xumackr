@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho do Lucas Campos dos santos </title>
+
+    <style>
+        ul {
+
+            list-style-type: none;
+            margin: 1rem;
+            margin-right: 50px;
+            float: left;
+        }
+
+        .mini {
+            padding: 1rem;
+            margin: 1rem;
+            background-color: wheat;
+            border-radius: 35px;
+            width: auto;
+            height: auto;
+            font-size: 1rem;
+            text-align: center;
+
+
+        }
+
+        .menu {
+            display: block;
+            border-color: black;
+            background-image: url(./assets/Flamengo.jpg);
+            width: auto;
+            float: left;
+            background-position: center;
+            border-radius: 20px;
+            margin: 1rem;
+
+
+
+        }
+
+        a {
+            color: black;
+            font-weight: 900;
+            border-radius: 30px;
+            width: auto;
+            font-style: italic;
+            text-align: center;
+            padding: 0;
+
+
+
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+        }
+
+
+        p {
+            font-style: oblique;
+            font-weight: 900;
+            font-size: 2.2rem;
+            color: white;
+            text-align: right;
+            padding: 1rem;
+            margin: 1rem;
+            border: 1rem;
+
+        }
+
+        .con {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            margin: 1rem;
+            font-size: 2.5rem;
+            background-image: url(./assets/nacaoRubro.jpg);
+            border-radius: 50px;
+
+        }
+
+        .cabeca img {
+
+            height: auto;
+            width: 20rem;
+            border-radius: 30rem;
+            margin: 1rem;
+            padding: 0.3rem;
+            background-color: wheat;
+
+        }
+
+        .con1 {
+            margin: 1rem;
+            padding: 1rem;
+            width: 30rem;
+            background-color: rgb(249, 54, 54);
+            border-radius: 80px 0px;
+            text-align: center;
+            line-height: 50px;
+
+        }
+
+        .mini :link {
+            text-decoration: none;
+            color: red;
+
+        }
+
+        .mini :visited {
+            color: black;
+
+        }
+
+        .mini :hover {
+            text-decoration: none;
+            color: red;
+            background-color: black;
+        }
+
+        .sobre1 {
+            width: 1px;
+            border-radius: 80%;
+            margin: 1rem;
+            background-color: wheat;
+            padding: 0.1rem;
+
+
+
+        }
+
+        .sobre2 {
+            display: flex;
+            flex-direction: row-reverse;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        .hdois,
+        .sobre1 {
+            flex: 1;
+
+
+        }
+
+
+
+
+        .sobre2 p {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+
+
+        }
+
+        h2 {
+            font-size: 50px;
+            margin: 1rem;
+            padding: 1rem;
+            text-align: center;
+            color: white;
+
+        }
+
+        .cabeca {
+            display: flex;
+        }
+
+        .con1,
+        .imgl {
+            flex: 1;
+        }
+
+        .hdois {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            margin: 1rem;
+        }
+
+        section {
+            display: flex;
+            padding: 1rem;
+            margin: 1rem;
+            border: 1px solid white;
+            height: auto;
+            border-radius: 30px;
+            color: white;
+            font-size: 2rem;
+
+        }
+
+        .imgprogramador img {
+            display: flex;
+            border-radius: 35px;
+            margin: 1rem;
+            padding: 1rem;
+            line-height: 50%;
+            margin-top: 50px;
+
+
+
+
+
+        }
+
+        .campo1,
+        .campo2 {
+            font-size: 0.9rem;
+            padding: 10px;
+            width: 8rem;
+            height: auto;
+            border: solid white 1px;
+            border-radius: 20px;
+            text-align: center;
+            inline-size: auto;
+
+        }
+
+        span {
+            color: red;
+        }
+        .ports {
+            display: flex;
+        }
+        .ports img {
+            width: 50%;
+            border-radius: 80px;
+            transition: 0.5s;
+            filter: brightness(0.5);
+
+        }
+        .ports img:hover {
+            transform: scale(1.2) rotate(360deg);
+            width: 50%;
+            filter: brightness(1);
+        }
+        .contact img{
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 80%;  
+            padding: 1rem;
+            margin: 1rem; 
+            
+            
+        }
+        .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1 class="con">
+        Olá me chamo Lucas campos, sejam Bem-vindo ao meu site
+    </h1>
+    <header class="cabeca">
+        <p class="con1">"Na busca da verdadeira felicidade, encontramos riqueza nos momentos simples e significativos da
+            vida, onde o amor, a gratidão e a autenticidade iluminam nosso caminho."</p>
+        <div><img src="./assets/lukitos.jpg" alt="Imagem do lucas" class="imgl"></div>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li class="mini"><a href="#secao1" class="m1">Sobre mim</a></li>
+            <li class="mini"><a href="#secao2" class="m2">Formação</a></li>
+            <li class="mini"><a href="#secao3" class="m3">Portifólio</a></li>
+            <li class="mini"><a href="#secao4" class="m4">Contato</a></li>
+        </ul>
+        <p>
+            aprender é nos dar uma segunda chance, ao investir tempo no nosso desenvolvimento, podemos descobrir
+            interesses
+            que não imaginávamos, caminhos que estavam escondidos e possibilidades que nos tornam melhores e mais
+            felizes.
+        </p>
+    </nav>
+    <main>
+        <a id="secao1">
+            <article class="sobre2">
+                <div class="hdois">
+                    <p>
+                        Olá!,
+                        <span>Meu Nome é Lucas campos.</span>
+                    </p>
+                    <p class="hum">
+                        Sou Flamenguista, Apaixonado pelo aprendizado, Sempre gostei de mexer no computador sempre tive
+                        curiosidade sobre os assuntos de TI, Desde de pequeno ja mexia com ferramentas hacker,
+                        apaixonado
+                        por Cibersegurity
+                    </p>
+                </div>
+                <img src="./assets/Lucinhas.jpg" alt="" class="sobre1">
+            </article>
+        </a>
+        <a id="secao2">
+        </a>
+        <section>
+            <div class="campo0">
+                <h2>Minhas <span>Formações.</span></h2>
+                <p class="campo1">Análise e desenvolvimento de sistemas na Uninter <span>( Cursando )</span></p>
+                <p class="campo2"><span></span> Cibersegurânça Uniasselvi<span>( Cursando )</span></p>
+            </div>
+            <div class="imgprogramador"><img src="./assets/programadois.avif" alt="Software"></div>
+        </section>
+        <a id="secao3">
+            <h2>Meus <span>Portifólios.</span></h2>
+        </a>
+        <section class="ports">
+            <img src="./assets/Portifolios1.png" alt="portifolio1">
+            <img src="./assets/Portifolio2.png" alt="portifolio2">
+        </section>
+        <h2>Meus <span>Contatos.</span></h2>
+        <section class="contact">
+            <a href="https://www.facebook.com/xumackr/?viewas=100000686899395&show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0" target="_blank">
+                <img src="./assets/facebook.png" alt="meufacebookk" >
+            </a>
+            <a id="secao4">
+            <a href="https://www.linkedin.com/in/lucas-campos-248043274/"><img src="./assets/Linkedin.png" alt="meulinkedin" ></a>
+        </section>
+        </a>
+    </main>
+
+
+
+    <footer>
+        <hr>
+        <h2>Feito por Lucas campos dos santos </h2>
+
+    </footer>
+</body>
+
+</html>
