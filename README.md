@@ -1,4 +1,5 @@
 #Curso digital: git
 
 
-   #Salvando modificações no git 2 
+   ##Salvando modificações no git 2 
+	*Comando git push	
